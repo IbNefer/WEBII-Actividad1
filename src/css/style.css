@@ -1,0 +1,29 @@
+:root {
+    --color-base: #3498db;
+    --color-hover: #2ecc71;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.card {
+    width: 250px;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+    background-color: var(--color-base);
+    color: white;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.card:hover {
+    background-color: var(--color-hover);
+}
+
+button {
+    padding: 5px 10px;
+    margin: 5px;
+}
